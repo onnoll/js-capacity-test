@@ -6,7 +6,9 @@ Use node.js to launch a local server. The application has several bugs in javasc
 
 In order to complete the test, you must make a fork of this repository, and then submit a pull request with the code mistakes solved.
 
-The time between the fork and the pull request, is going to be considered as well the solutions/fixes proposed.
+Each of the mistakes needs to be commited in a single commit, so your fork must have 6 commits on it.
+
+The time between the fork and the pull request, is going to be considered as well the solutions/fixes proposed. Comments on commits with explanation of the issue and the solution would be considered as well.
 
 Of course you can cheat with times, but is up to you being honest with yourself.
 
