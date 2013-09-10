@@ -73,7 +73,7 @@ iris.resource(function(self) {
     };
 
     self.removeCompleted = function() {
-        for (var i = 0; i < todos.length; i++ ) {
+        for (var i in todos) {
             var todo = todos[i];
             if (todo.completed) {
                 removeTodo(todo);
