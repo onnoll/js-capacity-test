@@ -8,7 +8,7 @@ iris.screen(function(self) {
 
         self.get("new-todo").on("keyup", function(e) {
             if (e.keyCode === 13 && this.value.trim() !== "") {
-                todos.addTodo(this.value);
+                todos.add(this.value);
                 this.value = "";
             }
         });
