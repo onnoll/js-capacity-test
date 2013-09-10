@@ -60,7 +60,7 @@ iris.resource(function(self) {
 
     self.toggle = function(id) {
         var todo = todos[id];
-        todo.completed = false;
+        todo.completed = !todo.completed;
 
         if (todo.completed) {
             --remaining;
