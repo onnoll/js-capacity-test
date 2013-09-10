@@ -1,7 +1,7 @@
 iris.ui(function(self) {
 
     self.settings({
-        ,id: null
+        id: null
     });
 
     var todos = iris.resource(iris.path.resource);
