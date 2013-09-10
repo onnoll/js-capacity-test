@@ -55,7 +55,7 @@ iris.resource(function(self) {
 
     self.remove = function(id) {
         removeTodo(todos[id]);
-        iris.notify(self.DESTR0Y_TODO, id);
+        iris.notify(self.DESTROY_TODO, id);
     };
 
     self.toggle = function(id) {
